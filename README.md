@@ -6,21 +6,23 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/sledgehamm3r/npc-aus">
+  <a href="https://github.com/sledgehamm3r/cardamage">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">NPC Spawn deaktivieren</h3>
+  <h3 align="center">Semirealistischer Cardamage</h3>
 
   <p align="center">
-    Ein kleiner Script zum deaktivieren der NPCs
+    Ein Script, welcher Autos semirealistisch bei Unfällen zerstört.
     <br />
-    <a href="https://github.com/sledgehamm3r/npc-aus"><strong>Dokumentation ansehen »</strong></a>
+    <a href="https://github.com/sledgehamm3r/cardamage"><strong>Dokumentation ansehen »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/sledgehamm3r/npc-aus/issues">Bug melden</a>
+    <a href="https://github.com/sledgehamm3r/cardamage/">Demo</a>
     ·
-    <a href="https://github.com/sledgehamm3r/npc-aus/issues">Anfrage stellen</a>
+    <a href="https://github.com/sledgehamm3r/cardamage/issues">Bug melden</a>
+    ·
+    <a href="https://github.com/sledgehamm3r/cardamage/issues">Anfrage stellen</a>
   </p>
 </div>
 
@@ -58,12 +60,13 @@
 ## Über das Projekt
 
 
-Dieses Fivem-Script ermöglicht es Serveradministratoren, alle NPCs (Pedestrians) auf ihrem Fivem-Server mit nur wenigen Zeilen Code zu deaktivieren. Durch das Deaktivieren der NPCs können Serverbetreiber die Performance ihres Servers verbessern und gleichzeitig das Spielerlebnis in bestimmten Szenarien anpassen.
+Dieses Fivem-Script ermöglicht es Serveradministratoren, einen semirealistischen Fahrzeugschaden in ihr Spiel zu integrieren. Mit diesem Skript werden Fahrzeuge bei Unfällen deutlich schneller beschädigt und können erst nach Reparatur wieder verwendet werden. Das sorgt für ein realistischeres Fahrerlebnis und erfordert strategisches Fahrverhalten.
 
 Funktionen:
-* Deaktiviert alle NPCs (Peds) auf dem Fivem-Server.
-* Verbessert die Serverleistung durch Verringerung der NPC-Aktivität.
-* Einfache Integration durch kurzen Scriptcode.
+* Einführung eines semirealistischen Fahrzeugschadensystems in FiveM.
+* Bei Unfällen wird das Fahrzeug schnell beschädigt und kann nicht mehr verwendet werden, bis es repariert wurde.
+* Der Motor des beschädigten Fahrzeugs geht aus, und ein roter Schriftzug "Dieses Fahrzeug ist kaputt" erscheint über dem Auto.
+* Anpassung des Damagemultiplikators über die Konfigurationsdatei (config.lua).
 
 
 <p align="right">(<a href="#readme-top">Zurück nach oben</a>)</p>
@@ -81,7 +84,7 @@ Dies ist ein Script für das ESX-Framwork. Demnach sollte dein Server auf der ne
 
 * Lade den neuesten Release herunter.
   ```sh
-  https://github.com/sledgehamm3r/npc-aus/releases
+  https://github.com/sledgehamm3r/cardamage/releases
   ```
 
 ### Installation
@@ -93,7 +96,7 @@ _Sobald du den Script heruntergeladen hast kommen wir nun zu den weiteren Schrit
 3. Kopiere den Ordner in deinen Ressourcen Ordner.
 4. Füge deiner server.cfg folgendes hinzu:
    ```sh
-   start ShameV-npc-aus
+   start ShameV-cardamage
    ```
 
 <p align="right">(<a href="#readme-top">Zurück nach Oben</a>)</p>
@@ -103,7 +106,7 @@ _Sobald du den Script heruntergeladen hast kommen wir nun zu den weiteren Schrit
 <!-- USAGE EXAMPLES -->
 ## Benutzung
 
-Es ist keinerlei Bedienung erforderlich - der Script verhindert ab Serverstart das Spawnen von Peds.
+Es ist keinerlei Bedienung erforderlich - der Script sorgt ab Serverstart dafür, dass Autos bei Kollisionen schneller kaputt gehen.
 
 
 
@@ -115,6 +118,7 @@ Es ist keinerlei Bedienung erforderlich - der Script verhindert ab Serverstart d
 ## Roadmap
 
 - [x] Füge Readme.md hinzu
+- [x] Füge Config.lua hinzu 
 - [ ] Füge Multi-language Support hinzu
     - [ ] English
 
@@ -155,7 +159,7 @@ Veröffentlicht unter der MIT-Lizenz. Weitere Informationen findest du in der Da
 
 sledgehamm3r - [DISCORD @sledge_hamm3rr] - info@shamev.de
 
-Project Link: [https://github.com/sledgehamm3r/npc-aus](https://github.com/sledgehamm3r/npc-aus)
+Project Link: [https://github.com/sledgehamm3r/cardamage](https://github.com/sledgehamm3r/cardamage)
 
 <p align="right">(<a href="#readme-top">Zurück nach Oben</a>)</p>
 
