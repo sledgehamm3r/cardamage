@@ -1,0 +1,2 @@
+# cardamage
+Semirealistischer Cardamagescript
