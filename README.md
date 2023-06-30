@@ -18,7 +18,7 @@
     <a href="https://github.com/sledgehamm3r/cardamage"><strong>Dokumentation ansehen »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/sledgehamm3r/cardamage/">Demo</a>
+    <a href="https://youtu.be/t2dGxHmm-vM">Demo</a>
     ·
     <a href="https://github.com/sledgehamm3r/cardamage/issues">Bug melden</a>
     ·
